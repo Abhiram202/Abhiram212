@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # These are the variables for the file paths for the folders on your computer.
-input_loc = 'C:\\Users\\uska1c74\\OneDrive - Kellogg Company\\Desktop\\input\\'
-output_loc = 'C:\\Users\\uska1c74\\OneDrive - Kellogg Company\\Desktop\\output\\'
+input_loc = 'input file, file path of your computer'
+output_loc = 'output file, file path of your computer'
 
 # Creates a variable to store the list of input files.
 fileList = os.listdir(input_loc)
